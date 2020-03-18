@@ -70,7 +70,6 @@ class CategoryTableViewController: UITableViewController {
             print(error)
         }
         tableView.reloadData()
-
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -78,11 +77,7 @@ class CategoryTableViewController: UITableViewController {
         if let indexPath = tableView.indexPathForSelectedRow {
             destinationVC.selectedCategory = categories[indexPath.row]
         }
-
     }
-
-
-
 }
 
 extension CategoryTableViewController{
