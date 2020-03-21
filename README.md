@@ -1,2 +1,2 @@
 # TaskManager With Core Data
-![](Task.gif)
+![](Task.gif)  ![](AdditionTask.gif)
